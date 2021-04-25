@@ -12,6 +12,7 @@ export default class CreateAppoiments1619197630661
             type: 'varchar',
             isPrimary: true,
             generationStrategy: 'uuid',
+            default: 'uuid_generate_v4()',
           },
           {
             name: 'provider',
