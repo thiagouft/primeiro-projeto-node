@@ -126,3 +126,6 @@ dist
 
 #Arquivo Yarn.lock
 yarn.lock
+
+tmp/*
+!tmp/.gitkeep
